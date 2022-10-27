@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WS-CHAT</title>
+</head>
+<body>
+
+  <form action="" id="username-form">
+    <label for="">Ваше iм'я</label>
+    <input type="text" name="username" required>
+  </form>
+
+  <div id="chatarea"></div>
+  
+  <form action="" id="messafe-form">
+    <textarea name="message" id="" cols="30" rows="3"></textarea>
+    <button type="submit">Відправити</button>
+  </form>
+
+  <script src="../chat.js">
+    // const ws = new WebSocket('ws://localhost:5000');
+    // ws.onopen = () => {
+    //   // console.log("Connection succesful");
+    // }
+    // ws.onmessage = (e) => {
+    //   console.log(e.data);
+    // }
+  </script>
+</body>
+</html>
